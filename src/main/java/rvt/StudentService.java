@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.*;
 
-
 public class StudentService {
 
     private Scanner scanner = new Scanner(System.in);
@@ -48,15 +47,15 @@ public class StudentService {
     }
 
     private boolean validatePersonalCode(String code) {
-        throw new UnsupportedOperationException("Unimplemented method 'validatePersonalCode'");
+        return !Regex.validatePersonalCode(code);
     }
 
     private boolean validateEmail(String email) {
-        throw new UnsupportedOperationException("Unimplemented method 'validateEmail'");
+        return !Regex.validateEmail(email);
     }
 
     private boolean validateName(String name) {
-        throw new UnsupportedOperationException("Unimplemented method 'validateName'");
+        return !Regex.validateName(name);
     }
 
     public void showStudents() throws IOException {
@@ -64,7 +63,7 @@ public class StudentService {
         List<Student_S> list = FileHandler.readStudents();
 
         System.out.printf("%-12s %-12s %-25s %-15s %-20s\n",
-                "Name","Surname","Email","Code","Date");
+                "Name", "Surname", "Email", "Code", "Date");
 
         for (Student_S s : list) {
             System.out.println(s);

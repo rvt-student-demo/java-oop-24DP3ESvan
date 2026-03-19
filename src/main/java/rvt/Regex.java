@@ -14,6 +14,6 @@ public class Regex {
     }
 
     public static boolean validatePersonalCode(String code) {
-        return code.matches("\\d{11}");
+        return code.matches("^[0-9]{12}$");
     }
 }
