@@ -1,7 +1,7 @@
 package rvt;
 
 import java.util.Scanner;
-public class Main_S {
+public class Main_S { 
 
     public static void main(String[] args) throws Exception {
 

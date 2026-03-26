@@ -3,7 +3,7 @@ package rvt;
 public class Student_S {
 
     private String name;
-    private String surname;
+    private String surname; 
     private String email;
     private String personalCode;
     private String registrationDate;

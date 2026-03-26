@@ -13,7 +13,7 @@ public class FileHandler {
         fw.close();
     }
 
-    public static List<Student_S> readStudents() throws IOException {
+    public static List<Student_S> readStudents() throws IOException { 
 
         List<Student_S> list = new ArrayList<>();
 
