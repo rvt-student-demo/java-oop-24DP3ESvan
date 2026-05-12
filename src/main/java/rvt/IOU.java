@@ -16,7 +16,7 @@ public class IOU {
 	public static void main(String[] args) {
 		IOU OweIOU = new IOU();
 		OweIOU.setSum("Arthur", 51.5);
-		OweIOU.setSum("Michael", 30);
+		OweIOU.setSum("Michael", 10.5);
 
 		System.out.println(OweIOU.howMuchDoIOweTo("Arthur"));
 		System.out.println(OweIOU.howMuchDoIOweTo("Michael"));
