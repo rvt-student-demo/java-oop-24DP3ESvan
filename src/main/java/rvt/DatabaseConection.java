@@ -129,7 +129,7 @@ public class DatabaseConection {
         System.out.println("\nMeklesana pec kategorijas:");
         System.out.println("1. Meklet pec kategorijas ID");
         System.out.println("2. Meklet pec kategorijas nosaukuma");
-        System.out.print("Izvēlieties: ");
+        System.out.print("Izvelieties: ");
         String choice = scanner.nextLine();
         
         String sql = "SELECT p.id AS product_id, p.name AS product_name, p.price AS product_price, c.id AS category_id, c.name AS category_name "
