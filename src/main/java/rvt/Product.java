@@ -22,9 +22,13 @@ public class Product {
     }
 
     private void initSchema() {
-        String sql = "CREATE TABLE IF NOT EXISTS Product("
-                + "id INTEGER PRIMARY KEY NOT NULL,"
-                + "name TEXT NOT NULL)";
+        String sql = "CREATE TABLE IF NOT EXISTS Product ("
+                + "id INTEGER PRIMARY KEY NOT NULL, "
+                + "name TEXT NOT NULL, "
+                + "price REAL NOT NULL, "
+                + "category_id INTEGER NOT NULL, "
+                + "FOREIGN KEY(category_id) REFERENCES Category(id)"
+                + ");";
         try (
             Connection conn = connect();
             Statement stmt = conn.createStatement()

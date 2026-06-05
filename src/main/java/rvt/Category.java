@@ -24,10 +24,7 @@ public class Category {
     private void initSchema() {
         String sql = "CREATE TABLE IF NOT EXISTS Category ("
                 + "id INTEGER PRIMARY KEY NOT NULL, "
-                + "name TEXT NOT NULL, "
-                + "price REAL NOT NULL, "
-                + "product_id INTEGER NOT NULL, "
-                + "FOREIGN KEY(product_id) REFERENCES Product(id)"
+                + "name TEXT NOT NULL"
                 + ");";
         try (
             Connection conn = connect();
