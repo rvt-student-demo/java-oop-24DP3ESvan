@@ -1,8 +1,10 @@
-public class TodoDB {
+package rvt;
+
+public class ToDoDB {
 
     private static final String DB_URL = "jdbc:sqlite:todo.db";
 
-    public TodoDB() {
+    public ToDoDB() {
         initSchema();
     }
 
