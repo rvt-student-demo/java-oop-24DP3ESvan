@@ -98,7 +98,7 @@ public class TodoList {
             return true;
 
         } catch (IOException e) {
-            System.out.println("Error for updating file.");
+            System.out.println("Error updating file.");
             return false;
         }
     }

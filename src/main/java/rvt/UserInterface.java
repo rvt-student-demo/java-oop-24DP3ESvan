@@ -14,7 +14,7 @@ public class UserInterface {
 
     public void start() {
 
-        System.out.println("List for Application");
+        System.out.println("List Application");
 
         while (true) {
             printMenu();
