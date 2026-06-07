@@ -14,7 +14,7 @@ public class Teacher_1 extends Person {
 
     public static void main(String[] args) {
         Teacher_1 ada = new Teacher_1("Ada Lovelace", "24 Maddox St. London W1S 2QN", 1200);
-        Teacher_1 esko = new Teacher_1("Esko Ukkonen", "Mannerheimintie 15 00100 Helsinki", 5400);
+        Teacher_1 esko = new Teacher_1("Esko Ukonen", "Mannerheimintie 15 00100 Helsinki", 5400);
         System.out.println(ada);
         System.out.println(esko);
 
