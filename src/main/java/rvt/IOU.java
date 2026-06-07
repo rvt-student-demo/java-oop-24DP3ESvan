@@ -18,7 +18,7 @@ public class IOU {
 		OweIOU.setSum("Artur", 51.2);
 		OweIOU.setSum("Michael", 10.5);
 
-		System.out.println(OweIOU.howMuchDoIOweTo("Artur"));
+		System.out.println(OweIOU.howMuchDoIOweTo("Arthur"));
 		System.out.println(OweIOU.howMuchDoIOweTo("Michael"));
 	}
 }
