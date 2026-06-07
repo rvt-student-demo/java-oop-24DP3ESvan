@@ -27,7 +27,7 @@ public class ToDoDB {
         ) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            throw new RuntimeException("Schema init was failed: "
+            throw new RuntimeException("Schema init failed: "
                     + e.getMessage());
         }
     }
