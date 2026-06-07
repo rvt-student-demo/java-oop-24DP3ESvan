@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nitf>
-  <head>
-    <title>Colombia Earthquake</title>
-  </head>
-  <body>
-    <headline>
-      <hl1>143 Dead in Colombia Earthquake</hl1>
-    </headline>
-    <byline>
-      <bytag>By Jared Kotler, Associated Press Writer</bytag>
-    </byline>
-    <dateline>
-      <location>Bogota, Colombia</location>
-      <date>Monday January 27 1999 7:28 ET</date>
-    </dateline>
-  </body>
-</nitf>
+
+<kursi>
+    <kurss id="K001">
+        <nosaukums>Python pamati</nosaukums>
+        <apraksts>Ievads Python programmēšanā.</apraksts>
+        <pasniedzejs>Jānis Bērziņš</pasniedzejs>
+        <ilgums>40</ilgums>
+        <studentu_skaits>25</studentu_skaits>
+        <limenis>Iesācēji</limenis>
+    </kurss>
+
+    <kurss id="K002">
+        <nosaukums>Web izstrāde</nosaukums>
+        <apraksts>HTML, CSS un JavaScript pamati.</apraksts>
+        <pasniedzejs>Anna Ozola</pasniedzejs>
+        <ilgums>60</ilgums>
+        <studentu_skaits>18</studentu_skaits>
+        <limenis>Vidējs</limenis>
+    </kurss>
+
+    <kurss id="K003">
+        <nosaukums>Datu bāzes</nosaukums>
+        <apraksts>SQL un datu bāzu projektēšana.</apraksts>
+        <pasniedzejs>Pēteris Kalniņš</pasniedzejs>
+        <ilgums>50</ilgums>
+        <studentu_skaits>20</studentu_skaits>
+        <limenis>Profesionāls</limenis>
+    </kurss>
+</kursi>
