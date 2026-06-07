@@ -33,7 +33,7 @@ public class Category {
             stmt.execute("PRAGMA foreign_keys = ON;");
             stmt.execute(sql);
         } catch (SQLException e) {
-            throw new RuntimeException("Schema init failed!: "
+            throw new RuntimeException("Schema init failed: "
                     + e.getMessage());
         }
     }
