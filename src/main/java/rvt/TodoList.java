@@ -1,8 +1,12 @@
 package rvt;
 
-import java.io.*;
-import java.nio.file.*;
-import java.util.*;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.regex.Pattern;
 
 public class TodoList {
@@ -94,7 +98,7 @@ public class TodoList {
             return true;
 
         } catch (IOException e) {
-            System.out.println("Error updating file.");
+            System.out.println("Error for updating file.");
             return false;
         }
     }
