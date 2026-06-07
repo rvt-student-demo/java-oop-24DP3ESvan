@@ -17,7 +17,7 @@ public class Student extends Person {
     }
 
     public static void main(String[] args) {
-        Student ollie = new Student("Ollie", "6381 Hollywood Blvd. Los Angeles 90028");
+        Student ollie = new Student("Ollie", "6281 Hollywood Blvd. Los Angeles 90028");
         System.out.println(ollie);
         ollie.Study();
         System.out.println(ollie);
